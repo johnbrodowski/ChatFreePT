@@ -2,7 +2,8 @@
 
 A free, open-source Windows chat client for [Duck.ai](https://duck.ai) — DuckDuckGo's AI chat service — with built-in proxy discovery and automatic rotation. No API key required.
 
-![ChatFreePT Screenshot](docs/screenshot.png)
+<img width="1280" height="684" alt="image" src="https://github.com/user-attachments/assets/9525ff6f-8430-4544-bf6b-8a414029600e" />
+
 
 ---
 
