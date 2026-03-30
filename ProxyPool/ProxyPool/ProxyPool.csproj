@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+
+    <!-- NuGet Package Metadata -->
+    <PackageId>ProxyPool</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Your Name</Authors>
+    <Company>Your Company</Company>
+    <Product>ProxyPool</Product>
+    <Description>High-performance .NET library for intelligent proxy management with automatic discovery, parallel health monitoring, and smart rotation. Ideal for web scraping, bypassing rate limits, and ensuring reliable HTTP requests. Features include automatic proxy discovery from multiple sources, parallel testing (up to 500 concurrent tests), reliability scoring, SOCKS4/SOCKS5/HTTP/HTTPS support, and zero-configuration setup. Built for .NET 10.0 with full async/await support.</Description>
+    <Copyright>Copyright (c) 2025</Copyright>
+    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/yourusername/ProxyPool</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/yourusername/ProxyPool</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>proxy;http-client;web-scraping;proxy-rotation;socks5;socks4;proxy-pool;proxy-manager;reliability;health-check;rate-limiting;ip-rotation;async;dotnet;parallel-testing</PackageTags>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageReleaseNotes>See CHANGELOG.md for release notes</PackageReleaseNotes>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <EmbedUntrackedSources>true</EmbedUntrackedSources>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="../README.md" Pack="true" PackagePath="/" />
+    <None Include="../LICENSE.txt" Pack="true" PackagePath="/" />
+  </ItemGroup>
+
+</Project>
